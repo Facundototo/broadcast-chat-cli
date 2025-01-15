@@ -1,0 +1,21 @@
+{
+  "name": "broadcast-chat-cli",
+  "version": "1.0.0",
+  "description": "Realtime chat using Websocket protocol",
+  "main": "index.js",
+  "bin": {
+    "broadcast-chat-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Toto Facundo",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
