@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-import { connectToServer } from "../lib/client.js";
-import { startServer } from "../lib/server.js";
+const { connectToServer } = require('../lib/client.js');
+const { startServer } = require('../lib/server.js');
+
 
 const args = process.argv.slice(2);
 
