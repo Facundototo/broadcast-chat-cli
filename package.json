@@ -17,7 +17,6 @@
   "author": "Toto Facundo",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^12.3.2",
     "ws": "^8.18.0"
   }
 }
