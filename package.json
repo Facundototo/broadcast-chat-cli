@@ -4,7 +4,7 @@
   "description": "Realtime chat using Websocket protocol",
   "main": "index.js",
   "bin": {
-    "broadcast-chat-cli": "bin/index.js"
+    "brochat-cli": "bin/index.js"
   },
   "directories": {
     "lib": "lib"
