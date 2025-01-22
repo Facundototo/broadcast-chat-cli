@@ -5,7 +5,8 @@ export const {
     SERVER_SHUTTING_DOWN = '** server shutting down **',
     SERVER_CLIENT_DISCONNECTED = 'client disconnected',
     SERVER_CLIENT_CONNECTED = 'client connected',
-    SERVER_CLIENT_NAME = 'name setted successfully',
+    SERVER_SUCCESSFUL_NAME = 'name setted successfully',
+    SERVER_NO_SUCCESSFUL_NAME = 'a client already has that name',
     CLIENT_CLOSED = '\n--- client closed ---',
     CLIENT_CONNECTED = '\n--- connected to the chat ---',
 } = process.env
