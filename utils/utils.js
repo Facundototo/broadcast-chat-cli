@@ -11,14 +11,3 @@ export const {
     CLIENT_CONNECTED = '\n--- connected to the chat ---',
     HELP_ADVICE = 'check the "help" command to use the chat correctly'
 } = process.env
-
-export function printHelp(){
-    console.log('-- commands --');
-    console.log('* start  // starts the server');
-    console.log('* connect [-n,--name username]  // connects a client');
-    console.log('-- chat commands --');
-    console.log('* send <message>  // sends a message');
-    console.log('* set-name <name>  // change name');
-    console.log('* close  // close connection');
-    console.log('---');
- }
