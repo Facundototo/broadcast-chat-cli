@@ -12,12 +12,13 @@ export const {
     SERVER_NO_SUCCESSFUL_NAME = 'a client already has that name or it is not valid',
     SERVER_PRIVATE_MESSAGE_ERROR = 'the user you want to send a private message does not exist',
     
-    HELP_ADVICE = 'check the "help" command to use the chat correctly',
+    HELP_ADVICE = 'check the "/help" command to use the chat correctly',
 
     SET_NAME_COMMAND = '/set-name',
     SEND_COMMAND = '/send',
     SEND_TO_COMMAND = '/send-to',
     HELP_COMMAND = '/help',
-    CLOSE_COMMAND = '/close'
+    CLOSE_COMMAND = '/close',
+    CLEAR_COMMAND = '/clear'
 
 } = process.env

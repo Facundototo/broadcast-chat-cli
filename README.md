@@ -34,6 +34,7 @@ brochat-cli help
 - `/send-to <username> <message>`: sends a private message to a user
 - `/set-name <name>`: change name
 - `/close`: close connection
+- `/clear`: clears the chat
 - `/help`: all the commands
 
 ---
