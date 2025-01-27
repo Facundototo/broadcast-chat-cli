@@ -39,4 +39,12 @@ brochat-cli help
 
 ---
 
+#### Version 1.1.0
+
+- Added new feature: send private messages to a user.
+- New command to clean the terminal.
+- Chat commands changed, putting '/' first.
+
+---
+
 https://roadmap.sh/projects/broadcast-server
