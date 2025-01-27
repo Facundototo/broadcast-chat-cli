@@ -8,14 +8,15 @@ const args = process.argv.slice(2);
 const hasUsername = (args[1] === '-n' || args[1] === '--name');
 
 switch(args[0]){
-    // broadcast-chat-cli start
+    // brochat-cli start
     case 'start':
         startServer();
         break;
-    // broadcast-chat-cli connect [-n,--name] [username]
+    // brochat-cli connect [-n,--name] [username]
     case 'connect':
         connectToServer(hasUsername ? args[2] : undefined );
         break;
+    // brochat-cli help 
     case 'help':    
     default:
         printHelp();
