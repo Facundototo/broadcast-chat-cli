@@ -26,12 +26,15 @@ brochat-cli help
 
 - `start`: starts the server
 - `connect [-n,--name username]`: connects a client
+- `help`: all the commands
 
 #### Chat Commands
 
-- `send <message>`: sends a message
-- `set-name <name>`: change name
-- `close`: close connection
+- `/send <message>`: sends a message
+- `/send-to <username> <message>`: sends a private message to a user
+- `/set-name <name>`: change name
+- `/close`: close connection
+- `/help`: all the commands
 
 ---
 
