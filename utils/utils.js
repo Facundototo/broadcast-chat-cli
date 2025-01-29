@@ -17,6 +17,7 @@ export const {
     SET_NAME_COMMAND = '/set-name',
     SEND_COMMAND = '/send',
     SEND_TO_COMMAND = '/send-to',
+    JOIN_CHANNEL_COMMAND = '/join',
     HELP_COMMAND = '/help',
     CLOSE_COMMAND = '/close',
     CLEAR_COMMAND = '/clear'
