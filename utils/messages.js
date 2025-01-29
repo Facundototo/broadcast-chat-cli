@@ -19,6 +19,7 @@ export const {
     SEND_COMMAND = '/send',
     SEND_TO_COMMAND = '/send-to',
     JOIN_CHANNEL_COMMAND = '/join',
+    LIST_CHANNELS_COMMAND = '/list-channels',
     HELP_COMMAND = '/help',
     CLOSE_COMMAND = '/close',
     CLEAR_COMMAND = '/clear'
