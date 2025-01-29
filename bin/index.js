@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import { connectToServer } from '../lib/client.js';
+import { connectToServer } from '../lib/client/client.js';
 import { printHelp } from '../lib/commands/commands.js';
-import { startServer } from '../lib/server.js';
+import { startServer } from '../lib/server/server.js';
 
 const args = process.argv.slice(2);
 const hasUsername = (args[1] === '-n' || args[1] === '--name');
