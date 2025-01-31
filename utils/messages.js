@@ -12,6 +12,7 @@ export const {
     SERVER_PRIVATE_MESSAGE_ERROR = 'the user you want to send a private message does not exist',
     SERVER_CHANNEL_NOT_FINDED = 'the channel you are trying to join does not exist',
     SERVER_CHANNEL_JOINED = 'joined to the channel',
+    SERVER_USERS_FILTERED_BYCHANNEL = 'users filtered by channel',
     
     HELP_ADVICE = 'check the "/help" command to use the chat correctly',
 
@@ -20,6 +21,7 @@ export const {
     SEND_TO_COMMAND = '/send-to',
     JOIN_CHANNEL_COMMAND = '/join',
     LIST_CHANNELS_COMMAND = '/list-channels',
+    LIST_USERS_COMMAND = '/list-users',
     HELP_COMMAND = '/help',
     CLOSE_COMMAND = '/close',
     CLEAR_COMMAND = '/clear'
