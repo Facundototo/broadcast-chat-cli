@@ -1,32 +1,34 @@
-export const {
-    CLIENT_PROMPT = '-> ',
-    CLIENT_CLOSED = '\n--- client closed ---',
+export const Client = {
+    PROMPT: '-> ',
+    CLOSED: '\n--- client closed ---',
+    HELP_ADVICE: 'check the "/help" command to use the chat correctly'
+} 
 
-    SERVER_PROMPT = '[SERVER] ',
-    SERVER_NAME_ALERT = 'You do not have a username, type "help"',
-    SERVER_SHUTTING_DOWN = '** server shutting down **',
-    SERVER_CLIENT_DISCONNECTED = 'client disconnected',
-    SERVER_CLIENT_CONNECTED = 'client connected',
-    SERVER_SUCCESSFUL_NAME = 'name setted successfully',
-    SERVER_NO_SUCCESSFUL_NAME = 'a client already has that name or it is not valid',
-    SERVER_PRIVATE_MESSAGE_ERROR = 'the user you want to send a private message does not exist',
-    SERVER_CHANNEL_NOT_FINDED = 'the channel you are trying to join does not exist',
-    SERVER_CHANNEL_JOINED = 'joined to the channel',
-    SERVER_USERS_FILTERED_BYCHANNEL = 'users filtered by channel',
-    
-    HELP_ADVICE = 'check the "/help" command to use the chat correctly',
+export const Server = {
+    PROMPT: '[SERVER] ',
+    NAME_ALERT: 'You do not have a username, type "help"',
+    SHUTTING_DOWN: '** server shutting down **',
+    CLIENT_DISCONNECTED: 'client disconnected',
+    CLIENT_CONNECTED: 'client connected',
+    SUCCESSFUL_NAME: 'name setted successfully',
+    NO_SUCCESSFUL_NAME: 'a client already has that name or it is not valid',
+    PRIVATE_MESSAGE_ERROR: 'the user you want to send a private message does not exist',
+    CHANNEL_NOT_FINDED: 'the channel you are trying to join does not exist',
+    CHANNEL_JOINED: 'joined to the channel',
+    USERS_FILTERED_BYCHANNEL: 'users filtered by channel'
+}
 
-    SET_NAME_COMMAND = '/set-name',
-    SEND_COMMAND = '/send',
-    SEND_TO_COMMAND = '/send-to',
-    JOIN_CHANNEL_COMMAND = '/join',
-    LIST_CHANNELS_COMMAND = '/list-channels',
-    LIST_USERS_COMMAND = '/list-users',
-    HELP_COMMAND = '/help',
-    CLOSE_COMMAND = '/close',
-    CLEAR_COMMAND = '/clear'
-
-} = process.env
+export const Command = {
+    SET_NAME: '/set-name',
+    SEND: '/send',
+    SEND_TO: '/send-to',
+    JOIN_CHANNEL: '/join',
+    LIST_CHANNELS: '/list-channels',
+    LIST_USERS: '/list-users',
+    HELP: '/help',
+    CLOSE: '/close',
+    CLEAR: '/clear'
+}
 
 export const printChatChannel = (channel,prompt) => {
     prompt('');
