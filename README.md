@@ -24,17 +24,20 @@ brochat-cli help
 
 ### Commands
 
-- `start`: starts the server
-- `connect [-n,--name username]`: connects a client
+- `start [-p,--port port]`: starts the server
+- `connect [-n,--name username] [-p,--port port]`: connects a client
 - `help`: all the commands
 
 #### Chat Commands
 
-- `/send <message>`: sends a message
-- `/send-to <username> <message>`: sends a private message to a user
+- `/send <message>`: send a message
+- `/send-to <username> <message>`: send a private message to a user
 - `/set-name <name>`: change name
+- `/join <channel>`: join a channel
+- `/list-channels`: list of existing channels to join
+- `/list-users`: list of connected users
 - `/close`: close connection
-- `/clear`: clears the chat
+- `/clear`: clear the chat
 - `/help`: all the commands
 
 ---
@@ -44,6 +47,12 @@ brochat-cli help
 - Added new feature: send private messages to a user.
 - New command to clean the terminal.
 - Chat commands changed, putting '/' first.
+
+#### Version 1.2.0
+
+- Join other channels
+- Server information commands (/list-channels, /list-users)
+- The option to set a specific port when starting or connecting to a server
 
 ---
 
