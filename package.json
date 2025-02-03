@@ -1,6 +1,6 @@
 {
   "name": "broadcast-chat-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Realtime chat using Websocket protocol",
   "main": "index.js",
   "bin": {
